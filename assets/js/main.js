@@ -300,16 +300,22 @@ exemplo: 25% de 40 e 10
 
 ////////// Funcao dentro de objecto ////////////
 
-let pessoa = {
-  nome: 'Jaime',
-  sobrenome: 'Mahanuque',
-  idade: 90,
-  nomeCompleto: function() {
-    // return this.nome + ' ' + this.sobrenome
-    return `${this.nome} ${this.sobrenome}`;
-  }
+// let pessoa = {
+//   nome: 'Jaime',
+//   sobrenome: 'Mahanuque',
+//   idade: 90,
+//   nomeCompleto: function() {
+//     // return this.nome + ' ' + this.sobrenome
+//     return `${this.nome} ${this.sobrenome}`;
+//   }
+// }
+
+// // console.log(pessoa.nome + ' ' + pessoa.sobrenome)
+
+// console.log(pessoa.nomeCompleto());
+
+///////////// O Loop for /////////////////
+
+for(let n = 1; n <= 10; n++) {
+  console.log('Frase Qualquer '+ n)
 }
-
-// console.log(pessoa.nome + ' ' + pessoa.sobrenome)
-
-console.log(pessoa.nomeCompleto());
