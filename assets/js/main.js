@@ -250,19 +250,50 @@ exemplo: 25% de 40 e 10
 
 ///////////// O que sao objectos ////////
 
+// let personagem = {
+//   nome: 'Jaime',
+//   idade: 25,
+//   pais: 'Moz',
+//   olhos: ['pretos', 'azul'],
+//   caracteristicas: {
+//     forca: 20,
+//     stamina: 100,
+//     magia: 2
+//   }
+ 
+// }
+
+// console.log(`${personagem.nome} tem ${personagem.idade} anos e uma stamina de ${personagem.caracteristicas.stamina} com olhos ${personagem.olhos[0]}`)
+
+/////////// Acessando e alterando objectos ///////////////
+
+
+// let personagem = {
+//   nome: 'Jaime',
+//   idade: 25,
+//   pais: 'Moz',
+//   olhos: ['pretos', 'azul'],
+//   caracteristicas: {
+//     forca: 20,
+//     stamina: 100,
+//     magia: 2
+//   }
+// }
+
+// personagem.nome = 'Pedro';
+// personagem.caracteristicas.forca += 5;
+// // console.log(personagem.caracteristicas.forca)
+
+// personagem.olhos.push('Verde');
+// console.log(personagem.olhos)
+
 let personagem = {
   nome: 'Jaime',
-  idade: 25,
-  pais: 'Moz',
-  olhos: ['pretos', 'azul'],
-  caracteristicas: {
-    forca: 20,
-    stamina: 100,
-    magia: 2
-  }
- 
+  idade: '24',
+  carros: [
+    {modelo: 'Fiat', cor: 'Preto'},
+    {modelo: 'Ferrari', cor: 'Vermelho'}
+  ]
 }
 
-console.log(`${personagem.nome} tem ${personagem.idade} anos e uma stamina de ${personagem.caracteristicas.stamina} com olhos ${personagem.olhos[0]}`)
-
-
+console.log(personagem.carros[0].modelo)
