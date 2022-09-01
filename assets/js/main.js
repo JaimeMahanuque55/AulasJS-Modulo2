@@ -287,13 +287,29 @@ exemplo: 25% de 40 e 10
 // personagem.olhos.push('Verde');
 // console.log(personagem.olhos)
 
-let personagem = {
+// let personagem = {
+//   nome: 'Jaime',
+//   idade: '24',
+//   carros: [
+//     {modelo: 'Fiat', cor: 'Preto'},
+//     {modelo: 'Ferrari', cor: 'Vermelho'}
+//   ]
+// }
+
+// console.log(personagem.carros[0].modelo)
+
+////////// Funcao dentro de objecto ////////////
+
+let pessoa = {
   nome: 'Jaime',
-  idade: '24',
-  carros: [
-    {modelo: 'Fiat', cor: 'Preto'},
-    {modelo: 'Ferrari', cor: 'Vermelho'}
-  ]
+  sobrenome: 'Mahanuque',
+  idade: 90,
+  nomeCompleto: function() {
+    // return this.nome + ' ' + this.sobrenome
+    return `${this.nome} ${this.sobrenome}`;
+  }
 }
 
-console.log(personagem.carros[0].modelo)
+// console.log(pessoa.nome + ' ' + pessoa.sobrenome)
+
+console.log(pessoa.nomeCompleto());
