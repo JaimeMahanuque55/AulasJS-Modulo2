@@ -316,6 +316,33 @@ exemplo: 25% de 40 e 10
 
 ///////////// O Loop for /////////////////
 
-for(let n = 1; n <= 10; n++) {
-  console.log('Frase Qualquer '+ n)
+// for(let n = 1; n <= 10; n++) {
+//   console.log('Frase Qualquer '+ n)
+// }
+
+//////// Dando loop em arrays /////////////////
+
+
+
+// let cores = ['Preto', 'Branco', 'Azul', 'Vermelho'];
+
+// cores.push('Verde');
+
+// for(let n = 0; n < cores.length; n++) {
+//   console.log(cores[n]);
+// }
+
+// for(let i in cores) {
+//   console.log(cores[i])
+// }
+
+
+let cores = [
+  {nome: 'preto', qt: 10},
+  {nome: 'azul', qt: 5},
+  {nome: 'vermelho', qt: 15},
+]
+
+for (let cor of cores) {
+  console.log(`Nome: ${cor.nome.toUpperCase()} - ${cor.qt}`)
 }
