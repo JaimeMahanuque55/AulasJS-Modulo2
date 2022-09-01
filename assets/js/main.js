@@ -228,24 +228,41 @@ exemplo: 25% de 40 e 10
 
 // 1. No array, qual o numero que pega a ferrari?
 
-let carros = ['BMW', 'Ferrari', 'Mercedes'];
+// let carros = ['BMW', 'Ferrari', 'Mercedes'];
 
-let x = 1;
+// let x = 1;
 
-console.log('1. '+ carros[x]);
+// console.log('1. '+ carros[x]);
 
-// 2. Troque a Ferrari por Audi.
-carros[1] = 'Audi'
-console.log('2. Lista com Audi: ');
-console.log(carros);
+// // 2. Troque a Ferrari por Audi.
+// carros[1] = 'Audi'
+// console.log('2. Lista com Audi: ');
+// console.log(carros);
 
-// 3. Adiciona o volvo a lista
-carros.push('Volvo')
-console.log('3. Lista com Volvo: ');
-console.log(carros);
+// // 3. Adiciona o volvo a lista
+// carros.push('Volvo')
+// console.log('3. Lista com Volvo: ');
+// console.log(carros);
 
-// 4. Exiba quantos itens tem no array
+// // 4. Exiba quantos itens tem no array
 
-console.log('4. Itens no arry : '+carros.length)
+// console.log('4. Itens no arry : '+carros.length)
+
+///////////// O que sao objectos ////////
+
+let personagem = {
+  nome: 'Jaime',
+  idade: 25,
+  pais: 'Moz',
+  olhos: ['pretos', 'azul'],
+  caracteristicas: {
+    forca: 20,
+    stamina: 100,
+    magia: 2
+  }
+ 
+}
+
+console.log(`${personagem.nome} tem ${personagem.idade} anos e uma stamina de ${personagem.caracteristicas.stamina} com olhos ${personagem.olhos[0]}`)
 
 
