@@ -349,9 +349,28 @@ for (let cor of cores) {
 
 /////////// LOOP WHILE ////////////////
 
-let numero = 0;
+// let numero = 0;
 
-while (numero < 10) {
-  console.log(`O numero da vez e ${numero}`)
-  numero++;
+// while (numero < 10) {
+//   console.log(`O numero da vez e ${numero}`)
+//   numero++;
+// }
+
+///////// Exercicio de loops #8//////
+
+// 1. Faca um loop que mostre todas as frutas
+
+let fruits = ['Maca', 'Uva', 'Banana']
+
+for(let fruit of fruits) {
+  console.log(`Fruta: ${fruit}`)
+}
+
+// 2. Conte de 1 ate 100 atraves de um while;
+
+let contar = 1;
+
+while(contar <= 100) {
+  console.log(`Contando ${contar}`)
+  contar++;
 }
