@@ -337,7 +337,7 @@ exemplo: 25% de 40 e 10
 // }
 
 
-let cores = [
+/* let cores = [
   {nome: 'preto', qt: 10},
   {nome: 'azul', qt: 5},
   {nome: 'vermelho', qt: 15},
@@ -345,4 +345,13 @@ let cores = [
 
 for (let cor of cores) {
   console.log(`Nome: ${cor.nome.toUpperCase()} - ${cor.qt}`)
+} */
+
+/////////// LOOP WHILE ////////////////
+
+let numero = 0;
+
+while (numero < 10) {
+  console.log(`O numero da vez e ${numero}`)
+  numero++;
 }
