@@ -377,14 +377,50 @@ for (let cor of cores) {
 
 ////////////// FUNCOES DE ARRAY ////////////
 
-let frutas = ['Maca', 'Uva', 'Laranja', 'Banana'];
+// let frutas = ['Maca', 'Uva', 'Laranja', 'Banana'];
 
-// frutas.push('Maracuja') // Push adiciona um item ao array
-// frutas.pop(); // pop apaga o ultimo item do array
-// frutas.shift(); //shift apaga o primeiro item do array
-// frutas.join(' '); // join retornar algo no meio dos items do array
-// console.log(frutas.join(' - '))
-// frutas[0] = 'Maracuja' // Trocando um item especifico do array
-// frutas[frutas.length - 1] = 'Biscoito' // Para alterar o ultimo item do array
+// // frutas.push('Maracuja') // Push adiciona um item ao array
+// // frutas.pop(); // pop apaga o ultimo item do array
+// // frutas.shift(); //shift apaga o primeiro item do array
+// // frutas.join(' '); // join retornar algo no meio dos items do array
+// // console.log(frutas.join(' - '))
+// // frutas[0] = 'Maracuja' // Trocando um item especifico do array
+// // frutas[frutas.length - 1] = 'Biscoito' // Para alterar o ultimo item do array
 
-console.log(frutas)
+// console.log(frutas)
+
+/////// ORDENACAO DE ARRAY /////////////
+
+// let fruits = ['Maca', 'Uva', 'Laranja', 'Banana'];
+
+// // fruits.sort(); // Ordena os items do array de forma crescente
+
+// // fruits.sort(); primeiro ordena de ordem crescente
+// // fruits.reverse() depois ordena de forma reversa
+
+// console.log(fruits)
+
+let cars = [
+  { brand: 'Fiat', year: 2022 },
+  { brand: 'BMW', year: 2018 },
+  { brand: 'Ferrari', year: 2020 }
+]
+
+// Ordenando os items no objeto
+
+// cars.sort((a, b) => {
+//   if(a.year > b.year) {
+//     return 1;
+//   } else if (a.year < b.year) {
+//     return -1;
+//   } else {
+//     return 0;
+//   }
+// });
+
+cars.sort((a, b) => {
+  return a.year - b.year;
+});
+
+
+console.log(cars)
