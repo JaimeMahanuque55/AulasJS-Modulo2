@@ -360,17 +360,31 @@ for (let cor of cores) {
 
 // 1. Faca um loop que mostre todas as frutas
 
-let fruits = ['Maca', 'Uva', 'Banana']
+// let fruits = ['Maca', 'Uva', 'Banana']
 
-for(let fruit of fruits) {
-  console.log(`Fruta: ${fruit}`)
-}
+// for(let fruit of fruits) {
+//   console.log(`Fruta: ${fruit}`)
+// }
 
-// 2. Conte de 1 ate 100 atraves de um while;
+// // 2. Conte de 1 ate 100 atraves de um while;
 
-let contar = 1;
+// let contar = 1;
 
-while(contar <= 100) {
-  console.log(`Contando ${contar}`)
-  contar++;
-}
+// while(contar <= 100) {
+//   console.log(`Contando ${contar}`)
+//   contar++;
+// }
+
+////////////// FUNCOES DE ARRAY ////////////
+
+let frutas = ['Maca', 'Uva', 'Laranja', 'Banana'];
+
+// frutas.push('Maracuja') // Push adiciona um item ao array
+// frutas.pop(); // pop apaga o ultimo item do array
+// frutas.shift(); //shift apaga o primeiro item do array
+// frutas.join(' '); // join retornar algo no meio dos items do array
+// console.log(frutas.join(' - '))
+// frutas[0] = 'Maracuja' // Trocando um item especifico do array
+// frutas[frutas.length - 1] = 'Biscoito' // Para alterar o ultimo item do array
+
+console.log(frutas)
