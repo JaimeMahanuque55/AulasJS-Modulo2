@@ -400,27 +400,31 @@ for (let cor of cores) {
 
 // console.log(fruits)
 
-let cars = [
-  { brand: 'Fiat', year: 2022 },
-  { brand: 'BMW', year: 2018 },
-  { brand: 'Ferrari', year: 2020 }
-]
+// let cars = [
+//   { brand: 'Fiat', year: 2022 },
+//   { brand: 'BMW', year: 2018 },
+//   { brand: 'Ferrari', year: 2020 }
+// ]
 
-// Ordenando os items no objeto
+// // Ordenando os items no objeto
+
+// // cars.sort((a, b) => {
+// //   if(a.year > b.year) {
+// //     return 1;
+// //   } else if (a.year < b.year) {
+// //     return -1;
+// //   } else {
+// //     return 0;
+// //   }
+// // });
 
 // cars.sort((a, b) => {
-//   if(a.year > b.year) {
-//     return 1;
-//   } else if (a.year < b.year) {
-//     return -1;
-//   } else {
-//     return 0;
-//   }
+//   return a.year - b.year;
 // });
 
-cars.sort((a, b) => {
-  return a.year - b.year;
-});
 
+// console.log(cars)
 
-console.log(cars)
+//////////// Iteração de array 1 /////////
+
+let fruits = ['Maca', 'Uva', 'Laranja', 'Banana'];
