@@ -427,4 +427,54 @@ for (let cor of cores) {
 
 //////////// Iteração de array 1 /////////
 
-let fruits = ['Maca', 'Uva', 'Laranja', 'Banana'];
+let fruits = ['Maca', 'Uvas', 'Laranja', 'Banana'];
+
+
+if(fruits.includes('Maca')) {
+  console.log('Tem Maca sim')
+} else {
+  console.log('Nao tem Maca')
+}
+
+
+
+// let ok = fruits.some((value, index, array) => { // recebe 3 parametros
+//   return value.length > 7; // retorna true quando alguns satisfazem a condicao
+// });
+
+// if(ok) {
+//   console.log('Alguns sao maior que 3');
+// } else {
+//   console.log('Nenhum e maior que 3')
+// }
+
+
+
+// let ok = fruits.every((value, index, array) => { // recebe 3 parametros
+//   return value.length > 4; // so retorna true quando todos os items do array satisfazem a condicao 
+// });
+
+// if(ok) {
+//   console.log('Todos sao maior que 3');
+// } else {
+//   console.log('Nao sao todos maior que 3')
+// }
+
+
+
+
+
+// let bigFruits = fruits.filter((value, index, array) => { // recebe 3 paremetros
+
+// });
+
+// // let bigFruits= fruits.filter((item) => {
+// //   return item.length > 4; // filter = retorna um novo array filtrado de acordo com o seu desejo
+// //   // if(item.length > 4) { 
+// //   //   return true;
+// //   // } else {
+// //   //   return false;
+// //   // }
+// // })
+
+// console.log(bigFruits)
